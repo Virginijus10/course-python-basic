@@ -4,7 +4,7 @@
 
 Ši funkcija yra iš `functools` modulio, ir ji leidžia sukaupti sąrašo elementus, taikant nurodytą funkciją. Kitaip tariant, `reduce()` pereina per sąrašą, naudodamas funkciją, kuri priima du argumentus, paeiliui pritaikydama funkciją elementams ir kaupiant rezultatą.
 
-Pavyzdys:
+Pavyzdys:  
 
 ```Python
 from functools import reduce
