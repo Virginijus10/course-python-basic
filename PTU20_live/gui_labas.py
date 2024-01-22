@@ -1,13 +1,13 @@
 import PySimpleGUI as sg
 
 layout = [
-    [sg.Text("Koks tavo vardas?", font="Verdana 15")],
+    [sg.Text("Koks tavo vardas?", font="Arial 15")],
     [sg.Input(key="-NAME-", font="Terminal 15")],
     [
         sg.Button("Pasisveikinti", key="-HELLO-"), 
         sg.Button("Atsisveikinti", key="-BYE-"),
     ],
-    [sg.Text(size=(40, 1), key="-OUTPUT-", font="Verdana 15")],
+    [sg.Text(size=(40, 1), key="-OUTPUT-", font="Arial 15")],
 ]
 
 window = sg.Window("LABAS", layout)
