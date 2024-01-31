@@ -1,4 +1,6 @@
 -- school_schedule
+
+DELETE FROM schedule;
 -- code01
 INSERT INTO schedule 
     (weekday, start_time, subject_id, classroom_id, teacher_id)
